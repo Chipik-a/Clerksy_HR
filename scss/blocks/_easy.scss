@@ -1,0 +1,57 @@
+.easy {
+    padding: 120px 0;
+    background-color: $beige;
+}
+
+.easy__common-block {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    margin-top: 18px;
+}
+
+.easy__common-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    padding-top: 20px;//додала щоб вирівняти різницю
+    align-items: center;
+}
+
+.easy__common-itemimg {
+    max-width: 100%; /* Предотвратить увеличение размера изображения */
+}
+
+// .easy__item-price {
+//     background-image: url('./../../img/easy/circle.png');
+//     background-repeat: no-repeat;
+//     // background-size: 100% auto;
+//     background-position: center bottom;
+//     background-size: contain;
+//     margin: 0 54px;
+// }
+
+
+.easy__item-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 54px;
+    background-image: url('./../../img/easy/circle.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    height: 200px; /* Установите фиксированную высоту */
+    overflow: hidden; 
+}
+
+.easy__hour, .easy__price {
+    font-family: $font-accent;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.75;
+}
+

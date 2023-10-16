@@ -1,0 +1,31 @@
+.production {
+    background-color: $dark;
+    padding-top: 66px;
+    padding-bottom: 120px;
+}
+
+.center {
+    text-align: center;
+}
+
+.production__row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    column-gap: 100px;
+}
+
+.production__item {
+    text-align: center;
+    display: inline-block; /* Устанавливаем блоки как inline-block для вертикального выравнивания */
+    vertical-align: top;
+}
+
+.production__item-img {
+    display: block; /* Убираем внешние отступы у изображений */
+    margin: 0 auto;
+}
+
+.production__item-text {
+    text-align: center;
+}

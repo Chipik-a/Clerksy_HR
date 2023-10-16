@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@font-face {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-style: 48px;
+    src: url('./../../fonts/RecoletaRegular.ttf');
+}
+
+body {
+    font-family: $font-main;
+    font-size: 18px;
+    color: $dark;
+    background-color: $white;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+a {
+    color: $white;
+    font-size: 16px;
+    transition: color 0.2s ease-in;
+    font-family: $font-main;
+
+    &:hover {
+        color: $green;
+    }
+}
+
+h2 {
+    font-family: 'Recoleta', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: 'Recoleta', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    padding-top: 20px;
+}
+
+h4 {
+    color: $dark;
+    text-align: center;
+    font-family: $font-accent;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5; 
+    margin: 0;
+}
+
+.subtitle {
+    padding-top: 27px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.text {
+    color: $light;
+    font-family: $font-main;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 18px;
+
+}
+
+.block-text {
+    padding-top: 27px;
+}
+
+.dark-text {
+    color: $dark;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.light-title {
+    color: $light;
+}
+
+.block__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+    padding: 0 98px;
+}
+

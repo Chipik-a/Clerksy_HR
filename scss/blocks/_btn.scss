@@ -1,0 +1,66 @@
+.btn {
+    display: block;
+    background-color: $green;
+    color: $light;
+    line-height: 1.2;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center; 
+    border-radius: 160px;
+    font-weight: 400;
+    font-size: 16px;
+
+    &:hover {
+        color: $dark;
+        background-color: saturate($color: $green, $amount: 30%);
+    }
+}
+
+.header__btn {
+    width: 141px;
+    height: 52px;
+
+}
+
+
+.easy__btn {
+    width: 244px;
+    margin: 0 auto;
+}
+
+.resource__btn {
+    margin-top: 19px;
+    width: 191px;
+}
+
+.clerksy__btn {
+    width: 258px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background-color: $pink;
+    color: $dark;
+    font-weight: 600;
+
+    &:hover {
+        color: $beige;
+        background-color: saturate($color: $pink, $amount: 20%);
+    }
+}
+
+.btn-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px;
+    width: 111px;
+    height: 52px; 
+    border-radius: 160px;
+    background-color: $btn;
+    color: $light;
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+        background-color: saturate($color: $btn, $amount: 20%);
+    }
+}
